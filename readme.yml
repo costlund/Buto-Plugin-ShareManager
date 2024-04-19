@@ -1,0 +1,25 @@
+readme:
+  name: Buto-Plugin-ShareManager
+  item:
+    -
+      name: Settings
+    -
+      name: Usage
+    -
+      name: Pages
+      item: {  }
+    -
+      name: Widgets
+      item:
+        -
+          name: widget_share_buttons
+    -
+      name: Event
+      item: {  }
+    -
+      name: Construct
+      item:
+        -
+          name: __construct
+    -
+      name: Methods

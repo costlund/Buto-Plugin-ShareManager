@@ -1,0 +1,65 @@
+-
+  type: ul
+  attribute:
+    class: 'list-unstyled text-small'
+  innerHTML:
+    -
+      type: li
+      attribute:
+        class: mb-1
+      innerHTML:
+        -
+          type: widget
+          data:
+            plugin: share/facebook
+            method: button_share_page
+            data:
+              u: rs:u
+    -
+      type: li
+      attribute:
+        class: mb-1
+      innerHTML:
+        -
+          type: widget
+          data:
+            plugin: share/twitter
+            method: button_share_page
+            data:
+              u: rs:u
+    -
+      type: li
+      attribute:
+        class: mb-1
+      innerHTML:
+        -
+          type: widget
+          data:
+            plugin: share/linkedin
+            method: button_share_page
+            data:
+              u: rs:u
+    -
+      type: li
+      attribute:
+        class: mb-1
+      innerHTML:
+        -
+          type: widget
+          data:
+            plugin: share/mail_client
+            method: button_share_page
+            data:
+              u: rs:u
+    -
+      type: li
+      attribute:
+        class: mb-1
+      innerHTML:
+        -
+          type: widget
+          data:
+            plugin: share/copy
+            method: button_copy_page
+            data:
+              u: rs:u
