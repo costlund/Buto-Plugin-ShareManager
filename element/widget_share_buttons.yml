@@ -1,4 +1,9 @@
 -
+  type: h5
+  settings:
+    enabled: rs:title
+  innerHTML: rs:title
+-
   type: ul
   attribute:
     class: 'list-unstyled text-small'

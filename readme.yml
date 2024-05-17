@@ -13,6 +13,15 @@ readme:
       item:
         -
           name: widget_share_buttons
+          description: |
+            ````
+            type: widget
+            data:
+              plugin: share/manager
+              method: share_buttons
+              data:
+                title: 'Share (optional)'
+            ````
     -
       name: Event
       item: {  }
