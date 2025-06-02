@@ -1,6 +1,14 @@
 # Buto-Plugin-ShareManager
 
-
+<p>Show share links.</p>
+<ul>
+<li>Facebook</li>
+<li>Twitter</li>
+<li>LinkedIn</li>
+<li>Mail</li>
+<li>Copy</li>
+<li>QR code</li>
+</ul>
 
 <a name="key_0"></a>
 
@@ -35,7 +43,8 @@ data:
   plugin: share/manager
   method: share_buttons
   data:
-    title: 'Share (optional)'</code></pre>
+    title: 'Share (optional)'
+    qr: false (optional to hide qr code)</code></pre>
 
 <a name="key_4"></a>
 

@@ -70,6 +70,8 @@
               u: rs:u
 -
   type: div
+  settings:
+    enabled: rs:qr
   attribute:
     class: text-center
   innerHTML: 

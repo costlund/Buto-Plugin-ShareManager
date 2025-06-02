@@ -1,5 +1,13 @@
 readme:
   name: Buto-Plugin-ShareManager
+  description: |
+    Show share links.
+    - Facebook
+    - Twitter
+    - LinkedIn
+    - Mail
+    - Copy
+    - QR code
   item:
     -
       name: Settings
@@ -21,6 +29,7 @@ readme:
               method: share_buttons
               data:
                 title: 'Share (optional)'
+                qr: false (optional to hide qr code)
             ````
     -
       name: Event

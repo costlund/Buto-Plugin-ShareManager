@@ -1,5 +1,9 @@
-version: 1.2.0
+version: 1.2.1
 history:
+  1.2.1:
+    date: '2025-06-02'
+    title: 'QR'
+    description: 'Add option to hide qr code.'
   1.2.0:
     date: '2025-06-02'
     title: 'QR'
