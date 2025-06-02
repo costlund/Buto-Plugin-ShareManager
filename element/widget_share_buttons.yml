@@ -68,3 +68,15 @@
             method: button_copy_page
             data:
               u: rs:u
+-
+  type: div
+  attribute:
+    class: text-center
+  innerHTML: 
+    -
+      type: widget
+      data:
+        plugin: qr/link_to_page
+        method: link
+        data:
+          url: rs:u

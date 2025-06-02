@@ -1,5 +1,9 @@
-version: 1.1.0
+version: 1.2.0
 history:
+  1.2.0:
+    date: '2025-06-02'
+    title: 'QR'
+    description: 'Add qr code.'
   1.1.0:
     date: '2024-05-17'
     title: 'Title'
