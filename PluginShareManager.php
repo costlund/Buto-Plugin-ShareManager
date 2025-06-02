@@ -13,7 +13,6 @@ class PluginShareManager{
     if(!$data->is_set('data/qr')){
       $data->set('data/qr', true);
     }
-    wfHelp::print($data);
     $element = wfDocument::getElementFromFolder(__DIR__, __FUNCTION__);
     $element->setByTag($data->get('data'), 'rs', true);
     wfDocument::renderElement($element);
