@@ -82,3 +82,22 @@
         method: link
         data:
           url: rs:u
+-
+  type: div
+  attribute:
+    class: alert alert-info
+    style:
+      word-wrap: break-word
+      margin-top: 20px
+  innerHTML: 
+    -
+      type: div
+      attribute:
+        class: text-center
+      innerHTML: 
+        -
+          type: small
+          innerHTML: Link
+    -
+      type: small
+      innerHTML: rs:u
