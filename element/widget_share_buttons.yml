@@ -84,6 +84,8 @@
           url: rs:u
 -
   type: div
+  settings:
+    enabled: rs:qr
   attribute:
     class: alert alert-info
     style:

@@ -1,5 +1,9 @@
-version: 1.3.0
+version: 1.4.0
 history:
+  1.4.0:
+    date: '2026-05-05'
+    title: 'Share buttons'
+    description: 'Show link in Share buttons widget only if qr code is in usage.'
   1.3.0:
     date: '2026-04-30'
     title: 'Share buttons'
